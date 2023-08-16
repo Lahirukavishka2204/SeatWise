@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.4.0",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-reveal": "^1.2.2",

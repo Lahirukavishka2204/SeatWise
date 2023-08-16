@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.header-list{
+    
+    flex-grow: 1;
+}
+
+.list-item-dropdown{
+   
+    display: flex;
+    align-items: center;
+   
+}
+
+.list-item{
+    
+    padding-right: 50px;
+}
+
+.list-item-drop{
+    padding-right: 5px;
+}
+
+.dropdown-icon{
+
+    padding-right: 50px;;
+}
+
+#logo-image img{
+    padding-right: 10px;
+}
+
+.profile-image img{
+    padding-left: 250px;
+    padding-right: 10px;
+}

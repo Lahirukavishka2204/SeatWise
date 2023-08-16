@@ -7,6 +7,7 @@ import NotFound from './views/notFound.jsx';
 import Dashboard from './views/dashboard.jsx';
 import DefaultLayout from './components/DefaultLayout.jsx';
 import GuestLayout from './components/GuestLayout.jsx';
+import AdminDashboard from './views/admindashboard.jsx';
 
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
             {
                 path: '/users',
                 element : <Users />
+            },
+            {
+                path: '/admindashboard',
+                element : <AdminDashboard />
             },
         ]
     },
